@@ -31,5 +31,7 @@ touch submission/requirements.txt
 touch submission/url.txt
 ```
 
-**Run Streamlit App**
+## **Run Streamlit App**
+```bash
 streamlit run submission/dashboard/dashboard.py
+```
