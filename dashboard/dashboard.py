@@ -24,7 +24,7 @@ page = st.sidebar.radio("Select Page:", ("Home", "Pollutant Trend Visualization"
 # Home page
 if page == "Home":
     st.title("Air Quality Dashboard")
-    st.image("air_quality_image.jpg")  # Make sure this image exists in the same directory
+    st.image("dashboard/air_quality_image.jpg")  # Make sure this image exists in the same directory
     st.write("This dashboard provides insights into air quality trends over time.")
 
 # Pollutant trend visualization page
