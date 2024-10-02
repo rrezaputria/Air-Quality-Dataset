@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # data
-df = pd.read_csv('combined_df.csv.gz', compression='gzip')
+df = pd.read_csv('dashboard/combined_df.csv.gz', compression='gzip')
 df.columns = ['No', 'Year', 'Month', 'Day', 'Hour', 'PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3',
               'Temperature', 'Pressure', 'DewPoint', 'Rain', 'WindDirection', 'WindSpeed', 
               'Station', 'WindDirectionDegree', 'Date', 'AQI_PM2.5', 'AQI_PM10', 'AQI_SO2', 
